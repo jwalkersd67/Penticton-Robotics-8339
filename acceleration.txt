@@ -1,0 +1,11 @@
+public class acceleration {
+    public static void main(String args[]) {
+      double value = 0.354;
+      double currentSpeed = 0;
+        
+      for(double i = 1; i < 11; i++){
+          currentSpeed = value * i * 0.1;
+          System.out.println(Math.round(currentSpeed * 1000.0) / 1000.0);
+      }
+    }
+}
