@@ -14,7 +14,7 @@ public class DriveTrainCommand extends Command {
   }
   
   protected void execute(){
-    
+    Robot.DriveTrainSub.arcadeDrive(Robot.oi.Driver.getRawAxis(1), Robot.oi.Driver.getRawAxis(4));
   }
   
   protected boolean isFinished(){
